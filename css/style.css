@@ -1,0 +1,88 @@
+:root {
+  --main-color: #1e202b;
+  --second-color: #009ad8;
+  --third-color: #bfc1c8;
+}
+body {
+  background-color: var(--main-color);
+  color: var(--third-color);
+}
+
+.logo-img img {
+  width: 65px;
+}
+nav {
+  background-color: var(--main-color);
+}
+.nav-link {
+  border: 3px solid transparent;
+  border-radius: 20px;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: var(--second-color) !important;
+  border-color: var(--second-color);
+}
+.input-group {
+  background-color: #1e202b;
+}
+button {
+  background-color: var(--second-color) !important;
+  color: white !important;
+}
+input::placeholder {
+  color: var(--third-color) !important;
+}
+input {
+  color: #fff !important;
+}
+.form-control:focus {
+  border: none !important;
+  box-shadow: 0 0 0;
+}
+.container-search {
+  background-image: url(../assets/imgs/banner.png);
+  min-height: 350px;
+  background-size: cover;
+}
+.today-date,
+.next-day {
+  background-color: #00000014;
+}
+span img {
+  width: 20px;
+}
+.custom {
+  color: var(--second-color);
+}
+.degree {
+  font-size: 120px;
+  padding: 0;
+  margin: 0;
+}
+.degree img {
+  width: 100%;
+}
+
+i {
+  color: var(--second-color);
+  background-color: var(--main-color);
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  border-radius: 50%;
+
+  align-items: center;
+  justify-content: center;
+  transition: all 500ms;
+}
+i:hover {
+  background-color: var(--second-color);
+  color: white;
+}
+footer {
+  background-color: #262936;
+}
+.backdround {
+  background-color: #262936;
+}
