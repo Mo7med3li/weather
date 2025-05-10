@@ -10,9 +10,7 @@ A simple, responsive weather web application that displays current weather data 
 - 🎨 Responsive and modern design
 - 🔁 Fast updates with asynchronous API calls
 
-## 📸 Preview
 
-![Weather App Screenshot](https://via.placeholder.com/800x400.png?text=Weather+App+Screenshot)
 
 ## 🛠️ Technologies Used
 
