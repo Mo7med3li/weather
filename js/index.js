@@ -12,7 +12,7 @@ for (let i = 0; i < sectionLinks.length; i++) {
 
 async function getWeather(location) {
   let respons = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=8d7915c1ecf14866994163714240510&q=${location}&days=3&aqi=yes&alerts=no`
+    `https://api.weatherapi.com/v1/forecast.json?key=8d7915c1ecf14866994163714240510&q=${location}&days=3&aqi=yes&alerts=no`
   );
 
   let data = await respons.json();
